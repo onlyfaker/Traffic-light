@@ -21,6 +21,20 @@ pen.fd(60)
 pen.rt(90)
 pen.fd(120)
 
+red = turtle.Turtle()
+red.shape('circle')
+red.color('grey')
+red.goto(0,40)
+
+green = turtle.Turtle()
+green.shape('circle')
+green.color('grey')
+green.goto(0,-40)
+
+yellow = turtle.Turtle()
+yellow.shape('circle')
+yellow.color('grey')
+yellow.goto(0,0)
 
 while True:
     print('green')
