@@ -36,6 +36,7 @@ yellow.shape('circle')
 yellow.color('grey')
 yellow.goto(0,0)
 
+#this part of a code can be used for returning the value for the set period of time
 while True:
     red.color('grey')
     green.color('green')
