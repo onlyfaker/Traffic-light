@@ -37,7 +37,8 @@ yellow.color('grey')
 yellow.goto(0,0)
 
 while True:
-    print('green')
+    red.color('grey')
+    green.color('green')
     start_time = time.time()
 
     seconds = 10
@@ -47,7 +48,8 @@ while True:
         elapsed_time = current_time - start_time
 
         if elapsed_time >= seconds:
-            print("yellow")
+            green.color('grey')
+            yellow.color('yellow')
             break
     start_time2 = time.time()
     seconds2 = 3.5
@@ -57,7 +59,8 @@ while True:
         elapsed_time2 = current_time2 - start_time2
 
         if elapsed_time2 >= seconds2:
-            print("red")
+            yellow.color('grey')
+            red.color('red')
             break
     start_time2 = time.time()
     seconds3 = 10
