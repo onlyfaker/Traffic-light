@@ -1,11 +1,12 @@
 import time
 import turtle
 
-
+#screen, background and title
 wn = turtle.Screen()
 wn.title('stoplights')
 wn.bgcolor('black')
 
+#drwaing a box fpr light
 pen = turtle.Turtle()
 pen.color('green')
 pen.width(3)
@@ -21,22 +22,26 @@ pen.fd(60)
 pen.rt(90)
 pen.fd(120)
 
+#red circle
 red = turtle.Turtle()
 red.shape('circle')
 red.color('grey')
 red.goto(0,40)
 
+#green circle
 green = turtle.Turtle()
 green.shape('circle')
 green.color('grey')
 green.goto(0,-40)
 
+#yellow circle
 yellow = turtle.Turtle()
 yellow.shape('circle')
 yellow.color('grey')
 yellow.goto(0,0)
 
 #this part of a code can be used for returning the value for the set period of time
+#loop for infinite change of light
 while True:
     red.color('grey')
     green.color('green')
