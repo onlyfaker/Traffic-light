@@ -6,7 +6,7 @@ wn = turtle.Screen()
 wn.title('stoplights')
 wn.bgcolor('black')
 
-#drwaing a box fpr light
+#drwaing a box for light
 pen = turtle.Turtle()
 pen.color('green')
 pen.width(3)
@@ -22,17 +22,45 @@ pen.fd(60)
 pen.rt(90)
 pen.fd(120)
 
+#drwaing a box2 for light
+pen2 = turtle.Turtle()
+pen2.color('green')
+pen2.width(3)
+pen2.hideturtle()
+pen2.penup()
+pen2.goto(-30,-70)
+pen2.pendown()
+pen2.fd(60)
+pen2.rt(90)
+pen2.fd(90)
+pen2.rt(90)
+pen2.fd(60)
+pen2.rt(90)
+pen2.fd(90)
+
 #red circle
 red = turtle.Turtle()
 red.shape('circle')
 red.color('grey')
 red.goto(0,40)
 
+#red circle 2
+red2 = turtle.Turtle()
+red2.shape('circle')
+red2.color('grey')
+red2.goto(0,-90)
+
 #green circle
 green = turtle.Turtle()
 green.shape('circle')
 green.color('grey')
 green.goto(0,-40)
+
+#green circle 2
+green2 = turtle.Turtle()
+green2.shape('circle')
+green2.color('grey')
+green2.goto(0,-140)
 
 #yellow circle
 yellow = turtle.Turtle()
