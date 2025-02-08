@@ -133,3 +133,4 @@ while True:
 
         if elapsed_time >= seconds:
             break
+#make the lights go on/off by typing it in run log
